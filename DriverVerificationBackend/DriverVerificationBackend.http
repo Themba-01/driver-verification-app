@@ -1,0 +1,6 @@
+@DriverVerificationBackend_HostAddress = http://localhost:5062
+
+GET {{DriverVerificationBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

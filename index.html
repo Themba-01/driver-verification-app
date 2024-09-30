@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driver Verification</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Driver Verification</h1>
+        <form id="verificationForm" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="surname">Surname:</label>
+                <input type="text" id="surname" name="surname" placeholder="Enter your surname" required>
+            </div>
+            <div class="form-group">
+                <label for="orderNumber">Order Number:</label>
+                <input type="text" id="orderNumber" name="orderNumber" placeholder="Enter order number" required>
+            </div>
+            <div class="form-group">
+                <label for="vehicleRegistration">Vehicle Registration:</label>
+                <input type="text" id="vehicleRegistration" name="vehicleRegistration" placeholder="Enter vehicle registration" required>
+            </div>
+            <div class="form-group">
+                <label for="pickupTime">Pickup Time:</label>
+                <input type="datetime-local" id="pickupTime" name="pickupTime" required>
+            </div>
+            <div class="form-group camera-section">
+                <label for="camera">Selfie:</label>
+                <video id="camera" width="320" height="240" autoplay></video>
+                <button type="button" id="takeSnapshot">Take Snapshot</button>
+                <canvas id="snapshot" width="320" height="240"></canvas>
+                <input type="file" id="selfie" name="selfie" style="display: none;">
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

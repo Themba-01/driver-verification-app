@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Jc8NTjIZoX3K08LLjIy9+rwNXQFCT8mPNvWzk8wMuxk=",
+  "Source": "DriverVerificationBackend",
+  "BasePath": "_content/DriverVerificationBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
